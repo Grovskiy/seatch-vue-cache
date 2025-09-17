@@ -1,11 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LeagueList from '@/components/LeagueList.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="min-h-screen bg-base-200">
+    <!-- Header -->
+    <div class="navbar bg-base-100 shadow-lg">
+      <div class="container mx-auto">
+        <div class="flex-1">
+          <h1 class="text-xl font-bold">Sports Leagues</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <main class="container mx-auto px-4 py-8">
+      <LeagueList />
+    </main>
+  </div>
 </template>
 
 <style scoped></style>
