@@ -1,39 +1,26 @@
-# seatch-vue-cache
+# Sports Leagues SPA
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 single-page application that displays sports leagues with filtering and caching functionality. Built with Pinia state management and deployed on GitHub Pages.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 🏆 Browse sports leagues from TheSportsDB API
+- 🔍 Search and filter by sport type
+- 🖼️ Click leagues to load season badges
+- 💾 Smart caching with localStorage persistence
+- 📱 Responsive design with DaisyUI
 
-## Type Support for `.vue` Imports in TS
+## Quick Start
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Deployment
 
-```sh
-npm run build
-```
+Automatically deploys to GitHub Pages via GitHub Actions on push to main branch.
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+📖 **Detailed documentation**: See [DEVELOPMENT.md](./DEVELOPMENT.md) for AI tool usage, design decisions, and development journey.
